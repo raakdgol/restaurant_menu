@@ -1,0 +1,70 @@
+body {
+    /* background-image: url(images/premium_vector-1711987456419-1ecf7541c034.avif); */
+    /* opacity: 0.5; */
+    /* width: 200;
+    height: 200; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu-name {
+    /* background-color: rgba(61, 139, 125, 0.4); */
+    /* background-color: white; */
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:
+            -1px -1px 0 #ff0000,
+            1px -1px 0 #ff0000,
+            -1px 1px 0 #ff0000,
+            1px 1px 0 #ff0000;
+    font-weight: 900;
+    font-size: 80px;
+    height: 100px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.menu-types {
+    /* background-color: white; */
+    width: 1200px;
+    height: fit-content;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 100px;
+   
+}
+
+.menu-1 {
+    background-color: rgb(159, 163, 159);
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    padding: 20px 20px;
+}
+
+.menu-2 {
+    background-color: rgb(159, 163, 159);
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    padding: 20px 20px;
+}
+
+.menu-3 {
+    background-color: rgb(159, 163, 159);
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    padding: 20px 20px;
+}
+
