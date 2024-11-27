@@ -1,9 +1,10 @@
 body {
-    /* background-image: url(images/premium_vector-1711987456419-1ecf7541c034.avif); */
+    background-image: url(images/premium_vector-1711987456419-1ecf7541c034.avif);
+    background-size: contain;
     /* opacity: 0.5; */
     /* width: 200;
     height: 200; */
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +23,11 @@ body {
             1px 1px 0 #ff0000;
     font-weight: 900;
     font-size: 80px;
+    border-radius: 40px;
+    background-color: black;
     height: 100px;
+    width: fit-content;
+    padding: 10px 10px;
     /* display: flex;
     align-items: center;
     justify-content: center; */
